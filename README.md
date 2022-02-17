@@ -30,8 +30,8 @@ Or install it yourself as:
 :channel: "sidekiq-job"
 :link_names: 'false'
 :sidekiq_url: "http://localhost:3000/sidekiq/"
-:telegram_token: ""
-:telegram_chatid: ""
+:telegram_token: "TELEGRAM_BOT_TOKEN"
+:telegram_chatid: "TELEGRAM CHAT ID"
 :alert_dead_jobs:
   :message: "%<job_counter>d dead jobs.\n"
 :alert_total_waiting_jobs:

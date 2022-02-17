@@ -1,8 +1,11 @@
-:webhook_url: "YOUR SLACK INCOMING WEBHOOK"
+:notifier_mode: "telegram" # Use telegram or slack
+:webhook_url: "https://hooks.slack.com/services/xxxx"
 :username: "Sidekiq_Job_Alert"
-:channel: "YOUR CHANNEL NAME"
+:channel: "sidekiq-job"
 :link_names: 'false'
 :sidekiq_url: "http://localhost:3000/sidekiq/" # Replace with your sidekiq url
+:telegram_token: "TELEGRAM_BOT_TOKEN"
+:telegram_chatid: "TELEGRAM CHAT ID"
 :alert_dead_jobs:
   :message: "%<job_counter>d dead jobs.\n"
 :alert_total_waiting_jobs:

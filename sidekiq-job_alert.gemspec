@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sidekiq", "~> 4.2.1"
   spec.add_dependency "slack-notifier", "~> 2.3.2"
   spec.add_dependency "thor"
+  spec.add_dependency "telegram-bot-ruby"
 end
