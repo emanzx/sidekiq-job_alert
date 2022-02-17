@@ -24,11 +24,14 @@ Or install it yourself as:
   - example:
 
 ```yaml
+:notifier_mode: "telegram"
 :webhook_url: "https://hooks.slack.com/services/xxxx"
 :username: "Sidekiq_Job_Alert"
 :channel: "sidekiq-job"
 :link_names: 'false'
 :sidekiq_url: "http://localhost:3000/sidekiq/"
+:telegram_token: ""
+:telegram_chatid: ""
 :alert_dead_jobs:
   :message: "%<job_counter>d dead jobs.\n"
 :alert_total_waiting_jobs:
